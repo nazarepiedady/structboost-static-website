@@ -10,6 +10,10 @@
 	transition: background-color 0.3s ease;
 }
 
+.btn-primary:hover {
+	background-color: #fff;
+}
+
 .btn-primary.white {
 	background-color: #fff;
 }
