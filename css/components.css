@@ -13,3 +13,8 @@
 .btn-primary.white {
 	background-color: #fff;
 }
+
+.btn-primary.white:hover {
+	color: #fff;
+	background-color: var(--gray-900);
+}
