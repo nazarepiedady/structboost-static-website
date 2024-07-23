@@ -63,6 +63,13 @@
 	}
 }
 
+@media (max-width: 560px) {
+	.item-digital .info p {
+		font-size: 1.8rem;
+		max-width: 31.9rem;
+	}
+}
+
 /* card post */
 .card-post {
 	padding: 2.4rem;
