@@ -53,6 +53,16 @@
 	color: var(--gray-600);
 }
 
+@media (max-width: 991px) {
+	.item-digital {
+		text-align: center;
+	}
+
+	.item-digital .icon {
+		margin: 0 auto 1.6rem;
+	}
+}
+
 /* card post */
 .card-post {
 	padding: 2.4rem;
