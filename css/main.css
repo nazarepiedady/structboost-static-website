@@ -110,3 +110,8 @@ header nav ul li a:hover {
 .s-hero .ilustra-mobile {
 	display: none;
 }
+
+@keyframes draw-line {
+	from { width: 0%; }
+	to { width: 100%; }
+}
