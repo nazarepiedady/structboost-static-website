@@ -115,3 +115,9 @@ header nav ul li a:hover {
 	from { width: 0%; }
 	to { width: 100%; }
 }
+
+@keyframes floating {
+	0% { transform: translateX(0); }
+	50% { transform: translateX(15px); }
+	100% { transform: translateX(0); }
+}
