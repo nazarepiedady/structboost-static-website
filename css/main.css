@@ -88,3 +88,25 @@ header nav ul li a:hover {
 	z-index: -1;
 	animation: draw-line 1s 0.5s ease-in forwards;
 }
+
+.s-hero .text p {
+	width: 55.6rem;
+	margin: 2.4rem auto 3.2rem;
+	letter-spacing: -0.54px;
+	color: var(--gray-300);
+}
+
+.s-hero .text .arrow {
+	position: absolute;
+	bottom: 1.7rem;
+	left: 5.5rem;
+	animation: floating 3s ease-in-out infinite;
+}
+
+.s-hero .ilustra {
+	padding: 0 1.5rem;
+}
+
+.s-hero .ilustra-mobile {
+	display: none;
+}
