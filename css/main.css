@@ -140,6 +140,16 @@ header nav ul li a:hover {
 	border-bottom: 1px solid var(--gray-800);
 }
 
+@media (max-width: 1200px) {
+	.s-digital {
+		padding-top: 6.8rem;
+	}
+	.s-digital ul {
+		gap: 3.2rem;
+		padding-bottom: 12.8rem;
+	}
+}
+
 /* art-front section */
 .s-art-front {
 	padding: 12.8rem 0;
