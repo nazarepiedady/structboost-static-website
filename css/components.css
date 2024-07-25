@@ -53,6 +53,17 @@
 	color: var(--gray-600);
 }
 
+@media (max-width: 1200px) {
+	.item-digital .info h6 {
+		font-size: 2rem;
+		margin-top: 0.4rem;
+	}
+
+	.item-digital .info p {
+		font-size: 1.6rem;
+	}
+}
+
 @media (max-width: 991px) {
 	.item-digital {
 		text-align: center;
