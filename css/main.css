@@ -195,6 +195,21 @@ header nav ul li a:hover {
 	grid-column: span 2;
 }
 
+@media (max-width: 1200px) {
+	.s-art-front {
+		padding: 6rem 0;
+	}
+
+	.s-art-front .all {
+		gap: 1.6rem;
+	}
+
+	.s-art-front .all .card-post:nth-child(1),
+	.s-art-front .all .card-post:nth-child(2) {
+		grid-column: span 3;
+	}
+}
+
 /* newsletter section */
 .s-newsletter {
 	padding: 8.9rem 0;
