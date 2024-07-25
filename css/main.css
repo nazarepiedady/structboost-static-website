@@ -185,3 +185,24 @@ header nav ul li a:hover {
 	grid-column: span 2;
 }
 
+/* newsletter section */
+.s-newsletter {
+	padding: 8.9rem 0;
+	background-color: var(--pink-10);
+}
+
+.s-newsletter .container {
+	text-align: center;
+}
+
+.s-newsletter h2 {
+	font-weight: 600;
+	max-width: 64.6rem;
+	margin: 0 auto 1.6rem;
+	letter-spacing: -1.44px;
+}
+
+.s-newsletter .container p {
+	max-width: 68.7rem;
+	margin: 0 auto 2.4rem;
+}
