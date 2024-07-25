@@ -300,3 +300,9 @@ footer .copy {
 footer .copy strong {
 	font-weight: 600;
 }
+
+@media (max-width: 1200px) {
+	footer .main-area .right {
+		max-width: 66.2rem;
+	}
+}
