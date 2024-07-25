@@ -1,4 +1,4 @@
-/* header */
+/* header section */
 header {
 	width: 100%;
 	height: 8.8rem;
@@ -139,3 +139,49 @@ header nav ul li a:hover {
 	justify-content: space-between;
 	border-bottom: 1px solid var(--gray-800);
 }
+
+/* art-front section */
+.s-art-front {
+	padding: 12.8rem 0;
+}
+
+.s-art-front .title-text {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6.4rem;
+	justify-content: space-between;
+}
+
+.s-art-front .title-text h3 {
+	font-weight: 600;
+	letter-spacing: -1.2px;
+}
+
+.s-art-front .title-text p {
+	color: var(--gray-600);
+	margin-top: 1.6rem;
+	letter-spacing: -0.54rem;
+}
+
+.s-art-front .title-text .left {
+	max-width: 53.9rem;
+}
+
+.s-art-front .title-text .left p {
+	max-width: 45.2rem;
+}
+
+.s-art-front .title-text .right {
+	max-width: 42.9rem;
+}
+
+.s-art-front .all {
+	gap: 3.2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.s-art-front .all .card-post:first-child {
+	grid-column: span 2;
+}
+
