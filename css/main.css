@@ -206,3 +206,72 @@ header nav ul li a:hover {
 	max-width: 68.7rem;
 	margin: 0 auto 2.4rem;
 }
+
+/* footer */
+footer {
+	padding: 4.8rem 0;
+}
+
+footer .main-area {
+	gap: 12.9rem;
+	display: flex;
+	margin-bottom: 2.4rem;
+	padding-bottom: 6.6rem;
+	align-items: flex-start;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+footer .main-area .left {
+	max-width: 27.9rem;
+}
+
+footer .main-area .left p {
+	font-size: 1.6rem;
+	line-height: 150%;
+	margin-top: 2.4rem;
+	color: var(--gray-600);
+	letter-spacing: -0.48px;
+}
+
+footer .main-area .right {
+	flex-grow: 1;
+	display: flex;
+	max-width: 79.2rem;
+	justify-content: space-between;
+}
+
+footer .main-area .right .item-nav h6 {
+	font-weight: 600;
+	font-size: 1.6rem;
+	margin-bottom: 3.2rem;
+	letter-spacing: -0.48px;
+	font-family: 'Inter', sans-serif;
+}
+
+footer .main-area .right .item-nav ul li:not(:last-child) {
+	margin-bottom: 3.2rem;
+}
+
+footer .main-area .right .item-nav ul li a {
+	gap: 1.6rem;
+	display: flex;
+	font-size: 1.6rem;
+	align-items: center;
+	color: var(--gray-600);
+	letter-spacing: -0.48px;
+	transform: color .3s ease;
+}
+
+footer .main-area .right .item-nav ul li a:hover {
+	color: var(--gray-100);
+}
+
+footer .copy {
+	color: var(--gray-600);
+	letter-spacing: -0.48px;
+}
+
+footer .copy strong {
+	font-weight: 600;
+}
