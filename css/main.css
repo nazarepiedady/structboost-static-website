@@ -122,6 +122,12 @@ header nav ul li a:hover {
 	100% { transform: translateX(0); }
 }
 
+@media (max-width: 991px) {
+	.s-hero::after {
+		height: 13rem;
+	}
+}
+
 /* digital section */
 .s-digital {
 	padding-top: 12.8rem;
