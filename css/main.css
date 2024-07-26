@@ -156,6 +156,13 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 991px) {
+	.s-digital ul {
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
 /* art-front section */
 .s-art-front {
 	padding: 12.8rem 0;
