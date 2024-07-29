@@ -353,6 +353,26 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 560px) {
+	.s-art-front {
+		padding: 8rem 0;
+	}
+
+	.s-art-front .title-text h3 {
+		width: 22.7rem;
+		margin: 0 auto;
+		font-size: 2.8rem;
+	}
+
+	.s-art-front .title-text .left p {
+		margin-top: 1.6rem;
+	}
+
+	.s-art-front .title-text p {
+		font-size: 1.6rem;
+	}
+}
+
 /* newsletter section */
 .s-newsletter {
 	padding: 8.9rem 0;
