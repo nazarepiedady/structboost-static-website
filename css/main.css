@@ -395,6 +395,20 @@ header nav ul li a:hover {
 	margin: 0 auto 2.4rem;
 }
 
+@media (max-width: 560px) {
+	.s-newsletter {
+		padding: 8.8rem;
+	}
+
+	.s-newsletter h2 {
+		font-size: 4rem;
+	}
+
+	.s-newsletter .container p {
+		max-width: 32.1rem;
+	}
+}
+
 /* footer */
 footer {
 	padding: 4.8rem 0;
