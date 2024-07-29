@@ -223,6 +223,38 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 991px) {
+	.s-art-front .title-text {
+		margin-bottom: 4rem;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.s-art-front .title-text .left {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.s-art-front .title-text .left p {
+		max-width: 100%;
+		margin-bottom: 8px;
+	}
+
+	.s-art-front .title-text .right {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.s-art-front .all {
+		grid-template-columns: 1fr;
+	}
+
+	.s-art-front .all .card-post:nth-child(1),
+	.s-art-front .all .card-post:nth-child(2) {
+		grid-column: initial;
+	}
+}
+
 /* newsletter section */
 .s-newsletter {
 	padding: 8.9rem 0;
