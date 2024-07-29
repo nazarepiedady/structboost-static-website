@@ -138,6 +138,33 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 768px) {
+	.s-hero {
+		padding-top: 6rem;
+	}
+
+	.s-hero .text h1 {
+		margin: 0 auto;
+		max-width: 49rem;
+	}
+
+	.s-hero .text h1::before {
+		left: 0;
+		bottom: -4px;
+		background-size: 100%;
+	}
+
+	.s-hero .text p {
+		max-width: 41.6rem;
+	}
+
+	.s-hero .text .arrow {
+		left: 2rem;
+		bottom: 3.7rem;
+		max-width: 60px;
+	}
+}
+
 /* digital section */
 .s-digital {
 	padding-top: 12.8rem;
