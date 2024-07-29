@@ -505,3 +505,42 @@ footer .copy strong {
 		max-width: 100%;
 	}
 }
+
+@media (max-width: 560px) {
+	footer .main-area .right {
+		gap: 4.8rem;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	footer .main-area .right .item-nav h6 {
+		text-align: center;
+	}
+
+	footer .main-area .right .item-nav ul li a {
+		justify-content: center;
+	}
+
+	footer .main-area .right .item-nav:last-child {
+		width: 100%;
+	}
+
+	footer .main-area .right .item-nav:last-child ul {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	footer .main-area .right .item-nav:last-child ul li:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	footer .main-area {
+		padding-bottom: 4.8rem;
+	}
+
+	footer .copy {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+}
