@@ -49,6 +49,16 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 560px) {
+	header {
+		height: 7.2rem;
+	}
+
+	header .logo {
+		max-width: 16rem;
+	}
+}
+
 /* hero section */
 .s-hero {
 	position: relative;
