@@ -175,6 +175,42 @@ header nav ul li a:hover {
 	}
 }
 
+@media (max-width: 560px) {
+	.s-hero {
+		align-items: end;
+		padding-top: 8.8rem;
+	}
+
+	.s-hero .text h1 {
+		font-size: 4rem;
+	}
+
+	.s-hero .text h1::before {
+		bottom: -6px;
+	}
+
+	.s-hero .text p {
+		font-size: 1.6rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.s-hero .text .arrow {
+		display: none;
+	}
+
+	.s-hero .ilustra {
+		display: none;
+	}
+
+	.s-hero .ilustra-mobile {
+		display: block;
+	}
+
+	.s-hero::after {
+		height: 22rem;
+	}
+}
+
 /* digital section */
 .s-digital {
 	padding-top: 12.8rem;
